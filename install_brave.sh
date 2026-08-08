@@ -6,7 +6,7 @@ CHROME_ARGS="--password-store=basic --no-sandbox --ignore-gpu-blocklist --user-d
 
 # Install dependencies and Brave browser
 apt-get update
-apt install -y apt-transport-https curl
+apt install -y curl
 
 # Download and add Brave repository
 curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
